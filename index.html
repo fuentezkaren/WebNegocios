@@ -655,7 +655,21 @@
                                     </div>
                                 </div> 
                             </div>
-                            <a class="btn" href="">Haz una pregunta</a>
+                            <div class="card-header">
+                                <a class=" collapsed btn" data-toggle="collapse" href="#collapsePregunta" aria-expanded="false">
+                                    HAZ UNA PREGUNTA
+                                </a>
+                            </div>
+                            <div id="collapsePregunta" class="collapse show" data-parent="#accordion">
+                                <form>
+                                    <br>
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Escribe tu pregunta</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Pregunta">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Envíar</button>
+                                  </form>
+                            </div>
                         </div>
                     </div>
                     <br>
